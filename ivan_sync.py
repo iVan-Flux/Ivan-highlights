@@ -5,21 +5,22 @@ import os
 from datetime import datetime, timedelta
 from Crypto.Cipher import AES
 
-# 🔐 GitHub Secrets থেকে লোড করা হচ্ছে
+# 🔐 Load Credentials from GitHub Secrets
 IVAN_TOKEN = os.getenv("IVAN_TOKEN") 
 APP_PASSWORD = os.getenv("APP_PASSWORD")
 REPO_OWNER = "iVan-Flux"
-TARGET_REPO = "iVan-Xtra" # তোর প্রাইভেট ডাটাবেস রিপো
+TARGET_REPO = "iVan-Xtra" # Your private storage repository
 
-# Firebase ক্রেডেন্সিয়ালস
+# Firebase Credentials
 FIREBASE_API_KEY = os.getenv("FIREBASE_API_KEY")
 PROJECT_NUMBER = os.getenv("PROJECT_NUMBER")
 FIREBASE_FID = os.getenv("FIREBASE_FID")
 FIREBASE_APP_ID = os.getenv("FIREBASE_APP_ID")
 PACKAGE_NAME = os.getenv("PACKAGE_NAME")
 
-class iVanLiveProcessor:
+class iVanHighlightsProcessor:
     def _generate_aes_key_iv(self, s: str):
+        # Algorithm to generate the AES Key and IV from the APP_PASSWORD
         CHARSET = b"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+!@#$%&="
         u32 = lambda x: x & 0xFFFFFFFF
         data = s.encode("utf-8"); n = len(data); u = 0x811c9dc5
@@ -34,7 +35,8 @@ class iVanLiveProcessor:
             b = data[idx % n]; u = u32(u * 0x1d + (acc ^ b)); iv[idx // 3] = CHARSET[u % len(CHARSET)]; idx += 3; acc = u32(acc + 7)
         return bytes(key), bytes(iv)
 
-    def decrypt_data(self, b64_data: str):
+    def _decrypt_data(self, b64_data: str):
+        # Decrypt AES-CBC encrypted Base64 data from the server
         try:
             if not b64_data: return ""
             ct = base64.b64decode(b64_data)
@@ -46,24 +48,28 @@ class iVanLiveProcessor:
         except: return ""
 
     def apply_corrections(self, channels):
-        # তোর সেই ৭টি সলিড রুল (J, $, l, Q, W, ), Z)
+        # 🛠️ Applying the 7 solid rules for DRM Key correction (J, $, l, Q, W, ), Z)
         correction_map = {'J': 'a', '$': '5', 'l': '2', 'Q': 'b', 'W': 'f', ')': '2', 'Z': 'a'}
         if not isinstance(channels, list): return []
         for ch in channels:
             api_val = ch.get("api", "")
             if api_val:
+                # Attempt to decode Base64 API keys if they exist
                 try:
                     if len(api_val) > 20:
                         decoded = base64.b64decode(api_val).decode('utf-8')
                         if ":" in decoded: api_val = decoded
                 except: pass
+                # Replace incorrect characters with correct Hex values
                 for wrong, right in correction_map.items():
                     api_val = api_val.replace(wrong, right)
                 ch["api"] = api_val
-            ch["link"] = ch.get("link", "") # ১০০% র লিঙ্ক
+            # Ensure the stream link remains 100% Raw
+            ch["link"] = ch.get("link", "") 
         return channels
 
     def get_api_url(self):
+        # Dynamically fetch the current API URL from Firebase Remote Config
         try:
             r = requests.post(f"https://firebaseinstallations.googleapis.com/v1/projects/sportzx-7cc3f/installations", json={"fid": FIREBASE_FID, "appId": FIREBASE_APP_ID, "authVersion": "FIS_v2", "sdkVersion": "a:18.0.0"}, headers={"x-goog-api-key": FIREBASE_API_KEY}, timeout=10)
             auth_token = r.json()["authToken"]["token"]
@@ -71,33 +77,63 @@ class iVanLiveProcessor:
             return r2.json().get("entries", {}).get("api_url")
         except: return None
 
-    def push_to_private(self, filename, data):
+    def push_to_private_repo(self, filename, data):
+        # Push processed JSON files directly to the private repository 'iVan-Xtra'
         url = f"https://api.github.com/repos/{REPO_OWNER}/{TARGET_REPO}/contents/{filename}"
         headers = {"Authorization": f"token {IVAN_TOKEN}", "Accept": "application/vnd.github.v3+json"}
+        
+        # Fetch current file's SHA to perform an update
         r_get = requests.get(url, headers=headers)
         sha = r_get.json().get('sha') if r_get.status_code == 200 else None
+        
+        # Encode content to Base64 for GitHub API
         content = base64.b64encode(json.dumps(data, indent=4, ensure_ascii=False).encode('utf-8')).decode('utf-8')
-        payload = {"message": f"Sync {filename}", "content": content}
+        payload = {"message": f"Auto-Update Highlights {filename}", "content": content}
         if sha: payload["sha"] = sha
-        requests.put(url, headers=headers, json=payload)
+        
+        res = requests.put(url, headers=headers, json=payload)
+        if res.ok: print(f"✅ {filename} updated in iVan-Xtra!")
+        else: print(f"❌ Failed to push {filename}: {res.text}")
 
-    def start(self):
+    def start_sync(self):
+        # Main execution flow: Get API -> Fetch Highlights -> Decrypt Streams -> Push to GitHub
         api_url = self.get_api_url()
-        if not api_url: return
+        if not api_url: 
+            print("❌ Firebase connection failed."); return
+        
         base_api = api_url.rstrip('/')
         headers = {"User-Agent": "Dalvik/2.1.0"}
-        r_ev = requests.get(f"{base_api}/events.json", headers=headers)
-        all_events = json.loads(self.decrypt_data(r_ev.json().get("data", "")))
-        for ev in all_events:
-            eid = ev.get("id")
-            r_ch = requests.get(f"{base_api}/channels/{eid}.json", headers=headers)
+        
+        # 1. Fetch and decrypt the main highlights list
+        print(f"📡 Fetching Highlights list from: {base_api}/highlights.json")
+        r_list = requests.get(f"{base_api}/highlights.json", headers=headers)
+        list_dec = self._decrypt_data(r_list.json().get("data", ""))
+        
+        if not list_dec:
+            print("❌ Failed to decrypt Highlights list."); return
+            
+        highlights_data = json.loads(list_dec)
+        print(f"✅ Found {len(highlights_data)} Highlight items. Fetching stream details...")
+        
+        # 2. Loop through each highlight to fetch and fix channel data
+        for item in highlights_data:
+            m_id = item.get("id")
+            # Fetch individual stream files for each highlight ID
+            r_ch = requests.get(f"{base_api}/channels/{m_id}.json", headers=headers)
             if r_ch.status_code == 200:
-                ch_dec = self.decrypt_data(r_ch.json().get("data", ""))
+                ch_dec = self._decrypt_data(r_ch.json().get("data", ""))
                 if ch_dec:
-                    ev["channels_data"] = self.apply_corrections(json.loads(ch_dec))
-        self.push_to_private("highlights.json", all_events)
-        self.push_to_private("Playz-Highlights.json", all_events)
-        print("✅ Sync to iVan-Xtra Successful!")
+                    # Apply 7 rules and inject into the main object
+                    item["stream_links"] = self.apply_corrections(json.loads(ch_dec))
+                else:
+                    item["stream_links"] = []
+            else:
+                item["stream_links"] = []
+        
+        # 3. Save files to the private repository iVan-Xtra
+        self.push_to_private_repo("highlights.json", highlights_data)
+        self.push_to_private_repo("Playz-Highlights.json", highlights_data)
+        print("✅ Highlights Sync to iVan-Xtra Successful!")
 
 if __name__ == "__main__":
-    iVanLiveProcessor().start()
+    iVanHighlightsProcessor().start_sync()
