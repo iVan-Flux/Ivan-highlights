@@ -1,29 +1,41 @@
-name: iVan_FLUx Sync Bot
+name: Update Highlights Every Hour
 
 on:
   schedule:
-    - cron: '0 2,10,18 * * *' # দিনে ৩ বার
+    - cron: '0 * * * *'
   workflow_dispatch:
+  repository_dispatch:
+    types: [manual_push]
 
 jobs:
-  run-sync:
+  build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
-      - name: Install
-        run: pip install requests pycryptodome
-      - name: Sync
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run Highlights Generator
         env:
-          IVAN_TOKEN: ${{ secrets.IVAN_TOKEN }}
-          APP_PASSWORD: ${{ secrets.APP_PASSWORD }}
-          FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
-          PROJECT_NUMBER: ${{ secrets.PROJECT_NUMBER }}
-          FIREBASE_FID: ${{ secrets.FIREBASE_FID }}
-          FIREBASE_APP_ID: ${{ secrets.FIREBASE_APP_ID }}
-          PACKAGE_NAME: ${{ secrets.PACKAGE_NAME }}
-        run: python ivan_sync.py
+          LIVXOW_URL: ${{ secrets.LIVXOW_URL }}
+        run: python main.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add ivan.json
+          git commit -m "Update ivan.json [Skip CI]" || exit 0
+          git push
