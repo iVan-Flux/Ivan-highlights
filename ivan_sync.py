@@ -2,138 +2,123 @@ import requests
 import json
 import base64
 import os
-from datetime import datetime, timedelta
-from Crypto.Cipher import AES
+import datetime
+import binascii
+from collections import OrderedDict
 
-# 🔐 Load Credentials from GitHub Secrets
-IVAN_TOKEN = os.getenv("IVAN_TOKEN") 
-APP_PASSWORD = os.getenv("APP_PASSWORD")
-REPO_OWNER = "iVan-Flux"
-TARGET_REPO = "iVan-Xtra" # Your private storage repository
+# 🔐 Load Source URL from GitHub Secrets
+TARGET_URL = os.getenv("LIVXOW_URL")
 
-# Firebase Credentials
-FIREBASE_API_KEY = os.getenv("FIREBASE_API_KEY")
-PROJECT_NUMBER = os.getenv("PROJECT_NUMBER")
-FIREBASE_FID = os.getenv("FIREBASE_FID")
-FIREBASE_APP_ID = os.getenv("FIREBASE_APP_ID")
-PACKAGE_NAME = os.getenv("PACKAGE_NAME")
+def get_token():
+    """Generates a security token based on current UTC time."""
+    current_time = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+    try:
+        encoded_bytes = base64.b64encode(current_time.encode('utf-8'))
+        encoded_str = encoded_bytes.decode('utf-8')
+        reversed_b64 = encoded_str[::-1]
+        hex_str = binascii.hexlify(reversed_b64.encode('utf-8')).decode('utf-8')
+        return hex_str[::-1]
+    except: return None
 
-class iVanHighlightsProcessor:
-    def _generate_aes_key_iv(self, s: str):
-        # Algorithm to generate the AES Key and IV from the APP_PASSWORD
-        CHARSET = b"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+!@#$%&="
-        u32 = lambda x: x & 0xFFFFFFFF
-        data = s.encode("utf-8"); n = len(data); u = 0x811c9dc5
-        for b in data: u = u32((u ^ b) * 0x1000193)
-        key = bytearray(16)
-        for i in range(16):
-            b = data[i % n]; u = u32(u * 0x1f + (i ^ b)); key[i] = CHARSET[u % len(CHARSET)]
-        u = 0x811c832a
-        for b in data: u = u32((u ^ b) * 0x1000193)
-        iv = bytearray(16); idx = acc = 0
-        while idx != 0x30:
-            b = data[idx % n]; u = u32(u * 0x1d + (acc ^ b)); iv[idx // 3] = CHARSET[u % len(CHARSET)]; idx += 3; acc = u32(acc + 7)
-        return bytes(key), bytes(iv)
+def process_links(links_input):
+    """Processes branding rules, domain fixes, and standardizes link keys."""
+    final_list = []
+    if isinstance(links_input, str):
+        try: links_input = json.loads(links_input)
+        except: return []
+    if not isinstance(links_input, list): return []
 
-    def _decrypt_data(self, b64_data: str):
-        # Decrypt AES-CBC encrypted Base64 data from the server
-        try:
-            if not b64_data: return ""
-            ct = base64.b64decode(b64_data)
-            key, iv = self._generate_aes_key_iv(APP_PASSWORD)
-            cipher = AES.new(key, AES.MODE_CBC, iv)
-            pt = cipher.decrypt(ct); pad = pt[-1]
-            if 1 <= pad <= 16: pt = pt[:-pad]
-            return pt.decode("utf-8", errors="replace")
-        except: return ""
+    for link_obj in links_input:
+        name = link_obj.get("name", "").strip()
+        link_val = link_obj.get("link", "") or link_obj.get("url", "")
+        
+        # Clean tokenApi from stringified JSON to proper Object
+        token_api_raw = link_obj.get("tokenApi", "")
+        if isinstance(token_api_raw, str) and (token_api_raw.startswith("{") or token_api_raw.startswith("[")):
+            try: token_api_raw = json.loads(token_api_raw)
+            except: pass
 
-    def apply_corrections(self, channels):
-        # 🛠️ Applying the 7 solid rules for DRM Key correction (J, $, l, Q, W, ), Z)
-        correction_map = {'J': 'a', '$': '5', 'l': '2', 'Q': 'b', 'W': 'f', ')': '2', 'Z': 'a'}
-        if not isinstance(channels, list): return []
-        for ch in channels:
-            api_val = ch.get("api", "")
-            if api_val:
-                # Attempt to decode Base64 API keys if they exist
-                try:
-                    if len(api_val) > 20:
-                        decoded = base64.b64decode(api_val).decode('utf-8')
-                        if ":" in decoded: api_val = decoded
-                except: pass
-                # Replace incorrect characters with correct Hex values
-                for wrong, right in correction_map.items():
-                    api_val = api_val.replace(wrong, right)
-                ch["api"] = api_val
-            # Ensure the stream link remains 100% Raw
-            ch["link"] = ch.get("link", "") 
-        return channels
+        # Branding: Replace CricZ with SPORTIFy
+        if "CricZ" in name or "cricz" in name:
+            name = name.replace("CricZ", "SPORTIFy").replace("cricz", "SPORTIFy")
+        elif name.upper() in ["AQ", "LQ", "SD", "HD", "FHD", "4K"]:
+            name = f"SPORTIFy {name}"
+        
+        # Domain fix: .fly. to .cf.
+        if "otte.live.fly.ww.aiv-cdn.net" in link_val:
+            link_val = link_val.replace(".fly.", ".cf.")
 
-    def get_api_url(self):
-        # Dynamically fetch the current API URL from Firebase Remote Config
-        try:
-            r = requests.post(f"https://firebaseinstallations.googleapis.com/v1/projects/sportzx-7cc3f/installations", json={"fid": FIREBASE_FID, "appId": FIREBASE_APP_ID, "authVersion": "FIS_v2", "sdkVersion": "a:18.0.0"}, headers={"x-goog-api-key": FIREBASE_API_KEY}, timeout=10)
-            auth_token = r.json()["authToken"]["token"]
-            r2 = requests.post(f"https://firebaseremoteconfig.googleapis.com/v1/projects/{PROJECT_NUMBER}/namespaces/firebase:fetch", json={"appVersion": "2.1", "appInstanceId": FIREBASE_FID, "appId": FIREBASE_APP_ID, "packageName": PACKAGE_NAME}, headers={"X-Goog-Api-Key": FIREBASE_API_KEY, "X-Goog-Firebase-Installations-Auth": auth_token}, timeout=10)
-            return r2.json().get("entries", {}).get("api_url")
-        except: return None
+        final_list.append(OrderedDict([
+            ("title", name),
+            ("link", link_val),
+            ("logo", ""),
+            ("type", link_obj.get("scheme", 0)),
+            ("api", link_obj.get("api", "")),
+            ("tokenApi", token_api_raw)
+        ]))
+    return final_list
 
-    def push_to_private_repo(self, filename, data):
-        # Push processed JSON files directly to the private repository 'iVan-Xtra'
-        url = f"https://api.github.com/repos/{REPO_OWNER}/{TARGET_REPO}/contents/{filename}"
-        headers = {"Authorization": f"token {IVAN_TOKEN}", "Accept": "application/vnd.github.v3+json"}
-        
-        # Fetch current file's SHA to perform an update
-        r_get = requests.get(url, headers=headers)
-        sha = r_get.json().get('sha') if r_get.status_code == 200 else None
-        
-        # Encode content to Base64 for GitHub API
-        content = base64.b64encode(json.dumps(data, indent=4, ensure_ascii=False).encode('utf-8')).decode('utf-8')
-        payload = {"message": f"Auto-Update Highlights {filename}", "content": content}
-        if sha: payload["sha"] = sha
-        
-        res = requests.put(url, headers=headers, json=payload)
-        if res.ok: print(f"✅ {filename} updated in iVan-Xtra!")
-        else: print(f"❌ Failed to push {filename}: {res.text}")
+def run():
+    if not TARGET_URL:
+        print("Error: LIVXOW_URL missing in GitHub Secrets!")
+        exit(1)
 
-    def start_sync(self):
-        # Main execution flow: Get API -> Fetch Highlights -> Decrypt Streams -> Push to GitHub
-        api_url = self.get_api_url()
-        if not api_url: 
-            print("❌ Firebase connection failed."); return
+    token = get_token()
+    payload = json.dumps({"requestData": token, "from": "highlights"}, separators=(',', ':'))
+    headers = {"User-Agent": "okhttp/4.9.0", "Content-Type": "application/json"}
+
+    try:
+        r = requests.post(TARGET_URL, data=payload, headers=headers, timeout=30)
+        r.raise_for_status()
+        raw_data = r.json()
         
-        base_api = api_url.rstrip('/')
-        headers = {"User-Agent": "Dalvik/2.1.0"}
+        highlights_list = []
+        for item in raw_data:
+            # Decoding nested JSON strings
+            h_info = json.loads(item.get("highlight", "{}"))
+            processed_channels = process_links(item.get("links", "[]"))
+            title = h_info.get("eventName") or h_info.get("title") or "Unknown Highlight"
+
+            # Building standardized structure
+            h_obj = OrderedDict([
+                ("id", int(item.get("id", 0))),
+                ("title", title),
+                ("image", h_info.get("eventLogo", "")),
+                ("cat", h_info.get("category", "Highlights")),
+                ("eventInfo", OrderedDict([
+                    ("teamA", h_info.get("teamAName", "Team A")),
+                    ("teamB", h_info.get("teamBName", "Team B")),
+                    ("teamAFlag", h_info.get("teamAFlag", "")),
+                    ("teamBFlag", h_info.get("teamBFlag", "")),
+                    ("eventName", title),
+                    ("date", h_info.get("date", "")),
+                    ("time", h_info.get("time", ""))
+                ])),
+                ("channels_data", processed_channels)
+            ])
+            highlights_list.append(h_obj)
+
+        # IST Time for header
+        now_ist = datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=5, minutes=30)
+        update_time_str = now_ist.strftime("%I:%M:%S %p %d-%m-%Y")
         
-        # 1. Fetch and decrypt the main highlights list
-        print(f"📡 Fetching Highlights list from: {base_api}/highlights.json")
-        r_list = requests.get(f"{base_api}/highlights.json", headers=headers)
-        list_dec = self._decrypt_data(r_list.json().get("data", ""))
+        final_res = OrderedDict([
+            ("NAME", "FluX-oW Highlights (Auto Updated)"),
+            ("AUTHOR", "iVan_FluX"),
+            ("TELEGRAM CHANNEL", "https://t.me/api_hub_by_ivan"),
+            ("Last update time", update_time_str),
+            ("events", highlights_list)
+        ])
+
+        # Saving as plain JSON (No Encryption)
+        with open("ivan.json", "w", encoding="utf-8") as f:
+            json.dump(final_res, f, indent=4, ensure_ascii=False)
         
-        if not list_dec:
-            print("❌ Failed to decrypt Highlights list."); return
-            
-        highlights_data = json.loads(list_dec)
-        print(f"✅ Found {len(highlights_data)} Highlight items. Fetching stream details...")
-        
-        # 2. Loop through each highlight to fetch and fix channel data
-        for item in highlights_data:
-            m_id = item.get("id")
-            # Fetch individual stream files for each highlight ID
-            r_ch = requests.get(f"{base_api}/channels/{m_id}.json", headers=headers)
-            if r_ch.status_code == 200:
-                ch_dec = self._decrypt_data(r_ch.json().get("data", ""))
-                if ch_dec:
-                    # Apply 7 rules and inject into the main object
-                    item["stream_links"] = self.apply_corrections(json.loads(ch_dec))
-                else:
-                    item["stream_links"] = []
-            else:
-                item["stream_links"] = []
-        
-        # 3. Save files to the private repository iVan-Xtra
-        self.push_to_private_repo("highlights.json", highlights_data)
-        self.push_to_private_repo("Playz-Highlights.json", highlights_data)
-        print("✅ Highlights Sync to iVan-Xtra Successful!")
+        print("Success: ivan.json has been generated.")
+
+    except Exception as e:
+        print(f"Error: {e}")
+        exit(1)
 
 if __name__ == "__main__":
-    iVanHighlightsProcessor().start_sync()
+    run()
