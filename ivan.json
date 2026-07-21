@@ -1,0 +1,1227 @@
+{
+    "NAME": "FluX-oW Highlights (Auto Updated)",
+    "AUTHOR": "iVan_FluX",
+    "TELEGRAM CHANNEL": "https://t.me/api_hub_by_ivan",
+    "Last update time": "11:07:12 AM 21-07-2026",
+    "events": [
+        {
+            "id": 7,
+            "title": "UEFA Champions League Final",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/7/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "PSG",
+                "teamB": "Arsenal",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/1644/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/42/image",
+                "eventName": "UEFA Champions League Final",
+                "date": "30/05/2026",
+                "time": "15:50:00"
+            },
+            "channels_data": [
+                {
+                    "title": "EXTENDED",
+                    "link": "https://hl.playfytv.online/stream.php?id=GddIZBawmDAR8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "ENGLISH+",
+                    "link": "https://hl.playfytv.online/stream.php?id=eWVj2IopOMeRD",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "ENGLISH",
+                    "link": "https://hl.playfytv.online/stream.php?id=ApCdfp8jUjM1X",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "ESPAÑOL+",
+                    "link": "https://hl.playfytv.online/stream.php?id=Pe8fRY4W07ysw",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FRENCH+",
+                    "link": "https://hl.playfytv.online/stream.php?id=36JP5wmAma01e",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "PENAL in ARABIC",
+                    "link": "https://fullmatchshows.embedseek.com/hls/z2BDCuczMmdNmaYIWsKOfA/6hf/ghsr6lxd/uzcmf1/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "EX & PEN",
+                    "link": "https://fullmatchshows.embedseek.com/hls/XXq0VWJlFaeXk5W6Y2EFgA/onm/ghsr6lxd/strzak/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "FIFA World Cup",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/16/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Mexico",
+                "teamB": "South Africa",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/4781/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/4736/image",
+                "eventName": "FIFA World Cup",
+                "date": "11/06/2026",
+                "time": "18:50:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/mwdWSioOan_NXI9UXnSjGQ/sc/j3tyq5oy/teopcq/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/7Z0H0UJ2NVJuhgrdIqzOHw/qu/b6iuxd9c/lvx1vm/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "EXTENDED HIGHLIGHTS",
+                    "link": "https://soccerfull.net/hls/14254.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "TEST",
+                    "link": "https://hoohfooha.vibedailyhighlights.com/embed/U90KnqYdOlFZB",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": {
+                        "url": "https://hoohfooha.vibedailyhighlights.com/embed/U90KnqYdOlFZB",
+                        "api": "https://hoohfooha.vibedailyhighlights.com/embed/U90KnqYdOlFZB",
+                        "type": "embed",
+                        "link_key": "playback_url",
+                        "default_string": "N8x7Y%m+6n",
+                        "request_type": "get",
+                        "request_body_type": "text",
+                        "ip_api": "https://api.ipify.org/"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "title": "FIFA WORLD CUP",
+            "image": "https://api.sofascore.com/api/v1/unique-tournament/16/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Portugal",
+                "teamB": "DR Congo",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/4704/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/4823/image",
+                "eventName": "FIFA WORLD CUP",
+                "date": "18/06/2026",
+                "time": "13:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS HD",
+                    "link": "https://proxy.sportifyt31.workers.dev/?m3u8=https://img.refooty.com/m3u8/14335-p8eev.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH HIGHLIGHTS",
+                    "link": "https://proxy.sportifyt31.workers.dev/?m3u8=https://img.refooty.com/m3u8/14332-tIt74.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "title": "FIFA WORLD CUP",
+            "image": "https://api.sofascore.com/api/v1/unique-tournament/16/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Portugal",
+                "teamB": "Uzbekistan",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/4704/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/4723/image",
+                "eventName": "FIFA WORLD CUP",
+                "date": "24/06/2026",
+                "time": "04:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS HD",
+                    "link": "https://proxy.sportifyt31.workers.dev/?m3u8=https://soccerfull.net/hls/14433.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL HIGHLIGHTS HD",
+                    "link": "https://proxy.sportifyt31.workers.dev/?m3u8=https://soccerfull.net/hls/14432.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "1ST HALF REPEAT",
+                    "link": "https://proxy.sportifyt31.workers.dev/?m3u8=https://soccerfull.net/hls/14430.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "2nd HALF REPEAT",
+                    "link": "https://proxy.sportifyt31.workers.dev/?m3u8=https://soccerfull.net/hls/14431.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "title": "World Championship",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/16/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Jordan",
+                "teamB": "Argentina",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/4771/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/4819/image",
+                "eventName": "World Championship",
+                "date": "28/06/2026",
+                "time": "02:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS [EN]",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/PPd-l1EMo8QUTA62I-3o3g/db/9dr5kb6n/9w3imj/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH [FOX]",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/jTfH9_BSTD9Z6I0rE6fBzg/mik/9dr5kb6n/htjgkb/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH [RU]",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/ks2v4sb9AEC8zSe3Jl_W7w/ho/9dr5kb6n/ofve9x/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "title": "World Championship",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/16/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Colombia",
+                "teamB": "Portugal",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/4820/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/4704/image",
+                "eventName": "World Championship",
+                "date": "27/06/2026",
+                "time": "23:30:00"
+            },
+            "channels_data": [
+                {
+                    "title": "EX. HIGHLIGHTS",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/DDdrdxueTBzKEPUz-gkJxQ/db/9dr5kb6n/htjxf8/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "HIGHLIGHTS [RU]",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/w9Vady0j5VlhUPQ1H4muAw/is3/9dr5kb6n/kzti36/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/cHkfMakF4uSZCwHkKoOD-g/rw/9dr5kb6n/br9whs/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH [RU]",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/50u3RJmetYzDzoOXkgq1ww/6hp/9dr5kb6n/86yu5v/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "title": "World Championship",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/16/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Portugal",
+                "teamB": "Croatia",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/4704/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/4715/image",
+                "eventName": "World Championship",
+                "date": "02/07/2026",
+                "time": "23:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "BBC HIGHLIGHTS [50 FPS]",
+                    "link": "https://soccerfull.net/hls/14594.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "EXTENDED [EN]",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/A4woCG2l98-SoXlFnnLqXw/db/afyhwi5b/laabtc/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH [EN]",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/nTA2e8d14ky_XxzZmCrZVA/q3o/afyhwi5b/xnntg9/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "1st HALF REPEAT [BBC ENG]",
+                    "link": "https://soccerfull.net/hls/14591.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "2nd HALF REPEAT [BBC ENG]",
+                    "link": "https://soccerfull.net/hls/14592.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH REPEAT [MATCH RU]",
+                    "link": "https://soccerfull.net/hls/14593.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FOX SPORTS HIGHLIGHTS HD",
+                    "link": "https://img.refooty.com/m3u8/portugal-vs-croatia-2-july-2026-nn81hm3u8-JAY5Y.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "title": "World Championship",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/16/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Argentina",
+                "teamB": "Cabo Verde",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/4819/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/4753/image",
+                "eventName": "World Championship",
+                "date": "03/07/2026",
+                "time": "22:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "EXTENDED in EN",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/5lU8E7oFEhIYANGfK1nvKw/miy/wybszwqs/nxmhc5/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/LuW7S8tMG1BUGRnSNfacBg/lf/wybszwqs/ofygsh/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "Extra Time",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/Reosp0JcAeKBniHYcqgdQw/c5u/wybszwqs/kz1xyt/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "1st HALF",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/Bb5O3QM0RWWMnzuegUrWNg/us/wybszwqs/dybgza/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "2nd HALF",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/r4iypz1l2qA5okCB5hpfFQ/k5/wybszwqs/ht5z5v/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "title": "World Championship",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/16/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Brazil",
+                "teamB": "Norway",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/4748/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/4475/image",
+                "eventName": "World Championship",
+                "date": "05/07/2026",
+                "time": "19:50:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://soccerfull.net/hls/14623.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "1st HALF",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/gh9yzx7k7mSQFNctmsvT_Q/ho/zbxp13sp/pvz3ez/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "2nd HALF",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/oDERF-E7WGHszBqEQtTBHw/n8l/zbxp13sp/gq3n9m/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "title": "World Championship",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/16/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Portugal",
+                "teamB": "Spain",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/4704/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/4698/image",
+                "eventName": "World Championship",
+                "date": "06/07/2026",
+                "time": "19:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "EXTENDED in EN",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/WUYH5J-bkH1RX2uTWdtAww/n8l/twz65kxj/86synp/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://soccerfull.net/hls/14631.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH [EN]",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/uf5XLnozIafeyB7E3Jp0Pg/xy/krnvu9uj/jme1wl/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH [ES]",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/15IoDML08oFDmgbt4vEyoQ/8q/twz65kxj/5skmto/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH [RU]",
+                    "link": "https://soccerfull.net/hls/14630.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "title": "World Championship",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/16/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Mexico",
+                "teamB": "England",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/4781/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/4713/image",
+                "eventName": "World Championship",
+                "date": "06/07/2026",
+                "time": "01:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "EXTENDED in EN",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/b1h7Q3IGfUCHNB0H1AibQw/djx/krnvu9uj/9wf6aq/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://soccerfull.net/hls/14627.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH [EN]",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/5rGdanAWpTFE2In0WbvoNw/tab/krnvu9uj/mjcwqe/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH",
+                    "link": "https://soccerfull.net/hls/14626.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "title": "World Championship",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/16/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Argentina",
+                "teamB": "Egypt",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/4819/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/4758/image",
+                "eventName": "World Championship",
+                "date": "07/07/2026",
+                "time": "15:50:00"
+            },
+            "channels_data": [
+                {
+                    "title": "EXTENDED in EN",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/huzARcmWw1DYfrNj_xEHVA/5w3/twz65kxj/htz9iu/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://soccerfull.net/hls/14639.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH [EN]",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/HYp_qNH4Xhsnl-lvIK5j2A/ic/twz65kxj/cilawj/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH [EN]",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/JhFJ-s-qKkuuMDQ9pJq6Pg/xy/twz65kxj/brcgym/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "title": "World Championship",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/16/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "France",
+                "teamB": "Morocco",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/4481/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/4778/image",
+                "eventName": "World Championship",
+                "date": "09/07/2026",
+                "time": "19:50:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://soccerfull.net/hls/14648.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "EXTENDED in EN",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/gcQVXbXWR38iquSocS4paA/6hp/ipljef8k/s5y8vx/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://hgcloud.to/e/9qm3ax5xqxr7",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": {
+                        "url": "https://hgcloud.to/e/9qm3ax5xqxr7",
+                        "api": "https://hgcloud.to/e/9qm3ax5xqxr7",
+                        "type": "embed",
+                        "link_key": "playback_url",
+                        "default_string": "N8x7Y%m+6n",
+                        "request_type": "get",
+                        "request_body_type": "text",
+                        "ip_api": "https://api.ipify.org/"
+                    }
+                },
+                {
+                    "title": "FULL MATCH",
+                    "link": "https://hgcloud.to/e/us7kdjgtzcka",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": {
+                        "url": "https://hgcloud.to/e/us7kdjgtzcka",
+                        "api": "https://hgcloud.to/e/us7kdjgtzcka",
+                        "type": "embed",
+                        "link_key": "playback_url",
+                        "default_string": "N8x7Y%m+6n",
+                        "request_type": "get",
+                        "request_body_type": "text",
+                        "ip_api": "https://api.ipify.org/"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "title": "World Championship",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/16/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Spain",
+                "teamB": "Belgium",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/4698/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/4717/image",
+                "eventName": "World Championship",
+                "date": "10/07/2026",
+                "time": "19:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://soccerfull.net/hls/14652.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "EXTENDED in EN",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/I1U13MM9h6SDaJhzlfibBQ/q3o/1xmlf96b/gqwtzj/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH [EN]",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/04bAXXZNKNNeAHb9iNzckQ/sc/1xmlf96b/br5qqp/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH [RU]",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/fUoQn65dSAu2b364NiiAGA/vz1/xieommsx/3eosoj/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "title": "FIFA World Cup",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/16/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Norway",
+                "teamB": "England",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/4475/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/4713/image",
+                "eventName": "FIFA World Cup",
+                "date": "11/07/2026",
+                "time": "21:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://soccerfull.net/hls/14658.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "1st HALF",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/Rtp90qO9VFoCB9Td0Lpl9w/xy/9dr5kn6o/mjw338/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "2nd HALF",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/vNtaDjveBHN3MJKI8QiQPQ/xy/9dr5kn6o/u1egjb/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "EXTRA TIME",
+                    "link": "https://hgcloud.to/e/v33e6fy12o30",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": {
+                        "url": "https://hgcloud.to/e/v33e6fy12o30",
+                        "api": "https://hgcloud.to/e/v33e6fy12o30",
+                        "type": "embed",
+                        "link_key": "playback_url",
+                        "default_string": "N8x7Y%m+6n",
+                        "request_type": "get",
+                        "request_body_type": "text",
+                        "ip_api": "https://api.ipify.org/"
+                    }
+                },
+                {
+                    "title": "FULL TIME",
+                    "link": "https://hgcloud.to/e/joisrjh9v93m",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": {
+                        "url": "https://hgcloud.to/e/joisrjh9v93m",
+                        "api": "https://hgcloud.to/e/v33e6fy12o30",
+                        "type": "embed",
+                        "link_key": "playback_url",
+                        "default_string": "N8x7Y%m+6n",
+                        "request_type": "get",
+                        "request_body_type": "text",
+                        "ip_api": "https://api.ipify.org/"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "title": "FIFA World Cup",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/16/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Argentina",
+                "teamB": "Switzerland",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/4819/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/4699/image",
+                "eventName": "FIFA World Cup",
+                "date": "12/07/2026",
+                "time": "01:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/nnUF9IL59ukdunuuo7yrIA/9a/9dr5kn6o/s5x63r/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "HIGHLIGHTS [EN]",
+                    "link": "https://soccerfull.net/hls/14666.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "EXTENDED - EN",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/JM_W6x8BTdHeml1tOhLNyg/c5u/9dr5kn6o/mjwf1e/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "EX & PN [FOX]",
+                    "link": "https://soccerfull.net/hls/14661.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "ET & PN [ITV]",
+                    "link": "https://soccerfull.net/hls/14664.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH [EN]",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/yN8VOIQBwIqxQL6VNxGlGA/hl1/9dr5kn6o/icfxzo/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH [ITV]",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/HLWg6pHuY25gwVpiq7FM-A/lf/9dr5kn6o/htbgtv/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "title": "FIFA World Cup",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/16/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "France",
+                "teamB": "Spain",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/4481/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/4698/image",
+                "eventName": "FIFA World Cup",
+                "date": "14/07/2026",
+                "time": "19:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS [EN]",
+                    "link": "https://soccerfull.net/hls/14669.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "1st HALF [EN]",
+                    "link": "https://soccerfull.net/hls/14667.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "2nd HALF [EN]",
+                    "link": "https://soccerfull.net/hls/14668.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH",
+                    "link": "https://fullmatchshows.embedseek.com/#a5ndm",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": {
+                        "url": "https://fullmatchshows.embedseek.com/#a5ndm",
+                        "api": "https://fullmatchshows.embedseek.com/#a5ndm",
+                        "type": "sp",
+                        "link_key": "playback_url",
+                        "default_string": "N8x7Y%m+6n",
+                        "request_type": "get",
+                        "request_body_type": "text",
+                        "ip_api": "https://api.ipify.org/"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "title": "World Championship",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/16/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "England",
+                "teamB": "Argentina",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/4713/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/4819/image",
+                "eventName": "World Championship",
+                "date": "15/07/2026",
+                "time": "19:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://soccerfull.net/hls/14678.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH [FOX]",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/HfAV1oL6IeehgX8IsDPozQ/6hp/3awgtnts/gqxe1l/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH [TSN]",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/EdMSDv-j89BDwJlgNfyhmQ/k5/3awgtnts/ciq5nq/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH [BBC]",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/zYy47qqwGQzW54sgJloqlg/js/3awgtnts/qgn39r/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH [NOW]",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/VPDa6PJQo5-QizAVV5nT0w/6s/3awgtnts/68mls8/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH [ES]",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/TSFWybDY-2e17pnGeTD_GQ/qu/3awgtnts/hti9a9/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH [FR]",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/kby6Wh7UOH4cUE2D844ayg/sc/3awgtnts/86jtq1/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH [ITA]",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/RtcAlZ1ZRruJOCvQwv9Wwg/ox/3awgtnts/86j598/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH [GE]",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/kYGpRvS29AaGcMfRwMd1JQ/5c/3awgtnts/gqxivh/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH [EN]",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/h5P2yZ4p-HmPmbhtT389hQ/ty/6spnij6d/u19d8w/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "1st HALF",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/sdGcSXKMuncKNWJSnnrOWw/pp/3awgtnts/s5elco/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "2nd HALF",
+                    "link": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/g7NotJROfUiPMSvdBo1X3Q/xy/6spnij6d/68menx/tt/master.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "title": "World Championship",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/16/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "France",
+                "teamB": "England",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/4481/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/4713/image",
+                "eventName": "World Championship",
+                "date": "18/07/2026",
+                "time": "21:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://soccerfull.net/hls/14685.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "1st HALF [TSN]",
+                    "link": "https://soccerfull.net/hls/14680.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "1st HALF [BBC]",
+                    "link": "https://soccerfull.net/hls/14681.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "2ND HALF [TSN]",
+                    "link": "https://soccerfull.net/hls/14682.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "2ND HALF [BBC]",
+                    "link": "https://soccerfull.net/hls/14682.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "EX",
+                    "link": "https://hgcloud.to/e/21cg3zyhua79",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": {
+                        "url": "https://hgcloud.to/e/21cg3zyhua79",
+                        "api": "https://hgcloud.to/e/21cg3zyhua79",
+                        "type": "ls",
+                        "link_key": "playback_url",
+                        "default_string": "N8x7Y%m+6n",
+                        "request_type": "get",
+                        "request_body_type": "text",
+                        "ip_api": "https://api.ipify.org/"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "title": "World Championship Final",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/16/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Argentina",
+                "teamB": "Spain",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/4819/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/4698/image",
+                "eventName": "World Championship Final",
+                "date": "19/07/2026",
+                "time": "18:30:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://soccerfull.net/hls/14695.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "1st HALF [ENGLISH]",
+                    "link": "https://soccerfull.net/hls/14686.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "2nd HALF [ENGLISH]",
+                    "link": "https://soccerfull.net/hls/14688.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "EXTRA TIME [TSN ENG]",
+                    "link": "https://soccerfull.net/hls/14689.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "EXTRA TIME [BBC ENG]",
+                    "link": "https://soccerfull.net/hls/14692.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH [RU]",
+                    "link": "https://soccerfull.net/hls/14694.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "TROPHY CEREMONY 🏆 [TSN]",
+                    "link": "https://soccerfull.net/hls/14690.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "TROPHY CEREMONY 🏆 [BBC]",
+                    "link": "https://soccerfull.net/hls/14693.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        }
+    ]
+}
