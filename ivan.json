@@ -2,7 +2,7 @@
     "NAME": "FluX-oW Highlights (Auto Updated)",
     "AUTHOR": "iVan_FluX",
     "TELEGRAM CHANNEL": "https://t.me/api_hub_by_ivan",
-    "Last update time": "12:59:02 PM 23-08-2026",
+    "Last update time": "01:53:06 PM 23-08-2026",
     "events": [
         {
             "id": 7,
@@ -1216,6 +1216,47 @@
                 {
                     "title": "TROPHY CEREMONY 🏆 [BBC]",
                     "link": "https://soccerfull.net/hls/14693.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "title": "LaLiga",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Espanyol",
+                "teamB": "Real Madrid",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/2814/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/2829/image",
+                "eventName": "LaLiga",
+                "date": "22/08/2026",
+                "time": "19:30:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://img.refooty.com/m3u8/Espanyol_v_Real_Madrid_2026_08_22.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "1st HALF",
+                    "link": "https://soccerfull.net/hls/15473.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "2nd HALF",
+                    "link": "https://soccerfull.net/hls/15474.m3u8",
                     "logo": "",
                     "type": 0,
                     "api": "",
