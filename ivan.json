@@ -2,7 +2,7 @@
     "NAME": "FluX-oW Highlights (Auto Updated)",
     "AUTHOR": "iVan_FluX",
     "TELEGRAM CHANNEL": "https://t.me/api_hub_by_ivan",
-    "Last update time": "08:19:49 AM 27-08-2026",
+    "Last update time": "07:09:33 PM 27-08-2026",
     "events": [
         {
             "id": 7,
@@ -1280,8 +1280,16 @@
             },
             "channels_data": [
                 {
-                    "title": "Link 1",
-                    "link": "http://no.link",
+                    "title": "HIGHLIGHTS",
+                    "link": "https://img.refooty.com/m3u8/Real_Madrid_v_Real_Sociedad_2026_08_26.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "HIGHLIGHTS [ONLY GOALS]",
+                    "link": "https://cdn.videas.fr/v-medias/s5/hlsv1/5b/f7/5bf7dbc9-c546-4f15-8d9d-0cc79dca1dd6/playlist.m3u8",
                     "logo": "",
                     "type": 0,
                     "api": "",
