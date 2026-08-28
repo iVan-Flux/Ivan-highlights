@@ -2,7 +2,7 @@
     "NAME": "FluX-oW Highlights (Auto Updated)",
     "AUTHOR": "iVan_FluX",
     "TELEGRAM CHANNEL": "https://t.me/api_hub_by_ivan",
-    "Last update time": "02:13:45 PM 28-08-2026",
+    "Last update time": "02:08:18 AM 29-08-2026",
     "events": [
         {
             "id": 7,
@@ -1290,6 +1290,31 @@
                 {
                     "title": "HIGHLIGHTS [ONLY GOALS]",
                     "link": "https://cdn.videas.fr/v-medias/s5/hlsv1/5b/f7/5bf7dbc9-c546-4f15-8d9d-0cc79dca1dd6/playlist.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "title": "Premier League",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Crystal Palace",
+                "teamB": "Man City",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/7/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/17/image",
+                "eventName": "Premier League",
+                "date": "28/08/2026",
+                "time": "19:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "Link 1",
+                    "link": "http://no.link",
                     "logo": "",
                     "type": 0,
                     "api": "",
