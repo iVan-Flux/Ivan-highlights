@@ -2,7 +2,7 @@
     "NAME": "FluX-oW Highlights (Auto Updated)",
     "AUTHOR": "iVan_FluX",
     "TELEGRAM CHANNEL": "https://t.me/api_hub_by_ivan",
-    "Last update time": "08:32:07 AM 29-08-2026",
+    "Last update time": "04:11:40 PM 29-08-2026",
     "events": [
         {
             "id": 7,
@@ -1313,8 +1313,191 @@
             },
             "channels_data": [
                 {
-                    "title": "Link 1",
-                    "link": "http://no.link",
+                    "title": "HIGHLIGHTS",
+                    "link": "https://img.refooty.com/m3u8/Crystal_Palace_v_Man_City_2026_08_28.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "title": "Ligue 1",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Lille",
+                "teamB": "PSG",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/1643/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/1644/image",
+                "eventName": "Ligue 1",
+                "date": "28/08/2026",
+                "time": "18:45:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://img.refooty.com/m3u8/Lille_v_Paris_SG_2026_08_28.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "FULL MATCH",
+                    "link": "https://cwfuommwagyrfcg6.meadowbrookproduction.cfd/jubDiYuWLQCqfHI/hls3/01/14842/z4ocq7nmrxia_n/master.txt?.m3u8|Referer=https://soccerfull.net/lille-vs-psg-4131.html",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "title": "Saudi Pro League",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Al-Nassr",
+                "teamB": "Al-Taawoun",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/23400/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/56021/image",
+                "eventName": "Saudi Pro League",
+                "date": "28/08/2026",
+                "time": "18:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://img.refooty.com/m3u8/al-nassr-vs-al-taawon-2026-08-28.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "title": "LaLiga",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "R. Racing Club",
+                "teamB": "Elche",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/2835/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/2846/image",
+                "eventName": "LaLiga",
+                "date": "28/08/2026",
+                "time": "17:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://img.refooty.com/m3u8/Racing_v_Elche_2026_08_28.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "title": "Championship",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Wrexham",
+                "teamB": "Birmingham",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/64/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/9/image",
+                "eventName": "Championship",
+                "date": "28/08/2026",
+                "time": "19:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://img.refooty.com/m3u8/wrexham-birmingham-city-2026-08-28.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 35,
+            "title": "LaLiga",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Alavés",
+                "teamB": "Villarreal",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/2885/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/2819/image",
+                "eventName": "LaLiga",
+                "date": "28/08/2026",
+                "time": "19:30:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://img.refooty.com/m3u8/deportivo-alaves-vs-villarreal-2026-08-28.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 36,
+            "title": "Serie A",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Milan",
+                "teamB": "Venezia",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/2692/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/2688/image",
+                "eventName": "Serie A",
+                "date": "28/08/2026",
+                "time": "18:45:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://img.refooty.com/m3u8/AC_Milan_v_Venezia_2026_08_28.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 37,
+            "title": "Bundesliga",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Bayern",
+                "teamB": "Stuttgart",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/2672/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/2677/image",
+                "eventName": "Bundesliga",
+                "date": "28/08/2026",
+                "time": "18:30:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://img.refooty.com/m3u8/Bayern_Munich_v_Stuttgart_2026_08_28.m3u8",
                     "logo": "",
                     "type": 0,
                     "api": "",
