@@ -2,7 +2,7 @@
     "NAME": "FluX-oW Highlights (Auto Updated)",
     "AUTHOR": "iVan_FluX",
     "TELEGRAM CHANNEL": "https://t.me/api_hub_by_ivan",
-    "Last update time": "04:11:40 PM 29-08-2026",
+    "Last update time": "08:55:44 PM 29-08-2026",
     "events": [
         {
             "id": 7,
@@ -1498,6 +1498,31 @@
                 {
                     "title": "HIGHLIGHTS",
                     "link": "https://img.refooty.com/m3u8/Bayern_Munich_v_Stuttgart_2026_08_28.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 38,
+            "title": "Premier League",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Liverpool",
+                "teamB": "Forest",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/44/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/14/image",
+                "eventName": "Premier League",
+                "date": "29/08/2026",
+                "time": "11:30:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HD SERVER",
+                    "link": "https://img.refooty.com/m3u8/Liverpool_v_Nottingham_2026_08_29.m3u8",
                     "logo": "",
                     "type": 0,
                     "api": "",
