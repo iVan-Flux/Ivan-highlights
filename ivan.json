@@ -2,7 +2,7 @@
     "NAME": "FluX-oW Highlights (Auto Updated)",
     "AUTHOR": "iVan_FluX",
     "TELEGRAM CHANNEL": "https://t.me/api_hub_by_ivan",
-    "Last update time": "11:51:15 AM 30-08-2026",
+    "Last update time": "06:02:14 PM 30-08-2026",
     "events": [
         {
             "id": 7,
@@ -1506,7 +1506,32 @@
             ]
         },
         {
-            "id": 38,
+            "id": 39,
+            "title": "Premier League",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Tottenham",
+                "teamB": "Newcastle",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/33/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/39/image",
+                "eventName": "Premier League",
+                "date": "29/08/2026",
+                "time": "16:30:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HD SERVER",
+                    "link": "https://img.refooty.com/m3u8/Tottenham_v_Newcastle_2026_08_29.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 40,
             "title": "Premier League",
             "image": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
             "cat": "Football",
@@ -1521,8 +1546,16 @@
             },
             "channels_data": [
                 {
-                    "title": "HD SERVER",
+                    "title": "HIGHLIGHTS",
                     "link": "https://img.refooty.com/m3u8/Liverpool_v_Nottingham_2026_08_29.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                },
+                {
+                    "title": "HIGHLIGHTS [USA TV]",
+                    "link": "https://cdn.videas.fr/v-medias/s5/hlsv1/20/bb/20bb92c4-6efb-4f56-a4d0-583c39d25778/playlist.m3u8",
                     "logo": "",
                     "type": 0,
                     "api": "",
@@ -1531,18 +1564,318 @@
             ]
         },
         {
-            "id": 39,
+            "id": 41,
             "title": "Premier League",
             "image": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
             "cat": "Football",
             "eventInfo": {
-                "teamA": "Tottenham",
-                "teamB": "Newcastle",
-                "teamAFlag": "https://img.sofascore.com/api/v1/team/33/image",
-                "teamBFlag": "https://img.sofascore.com/api/v1/team/39/image",
+                "teamA": "Bournemouth",
+                "teamB": "Everton",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/60/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/48/image",
                 "eventName": "Premier League",
                 "date": "29/08/2026",
+                "time": "14:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://img.refooty.com/m3u8/Bournemouth_v_Everton_2026_08_29.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 42,
+            "title": "Bundesliga",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Elversberg",
+                "teamB": "Leverkusen",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/2598/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/2681/image",
+                "eventName": "Bundesliga",
+                "date": "29/08/2026",
+                "time": "13:30:00"
+            },
+            "channels_data": [
+                {
+                    "title": "Link 1",
+                    "link": "http://no.link",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 43,
+            "title": "LaLiga",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Levante",
+                "teamB": "Real Betis",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/2849/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/2816/image",
+                "eventName": "LaLiga",
+                "date": "29/08/2026",
+                "time": "15:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "Link 1",
+                    "link": "http://no.link",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 45,
+            "title": "Serie A",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Sassuolo",
+                "teamB": "Torino",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/2793/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/2696/image",
+                "eventName": "Serie A",
+                "date": "29/08/2026",
                 "time": "16:30:00"
+            },
+            "channels_data": [
+                {
+                    "title": "Link 1",
+                    "link": "http://no.link",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 46,
+            "title": "Serie A",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Fiorentina",
+                "teamB": "Frosinone",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/2693/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/2801/image",
+                "eventName": "Serie A",
+                "date": "29/08/2026",
+                "time": "16:30:00"
+            },
+            "channels_data": [
+                {
+                    "title": "Link 1",
+                    "link": "http://no.link",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 47,
+            "title": "Bundesliga",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Dortmund",
+                "teamB": "HSV",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/2673/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/2676/image",
+                "eventName": "Bundesliga",
+                "date": "29/08/2026",
+                "time": "16:30:00"
+            },
+            "channels_data": [
+                {
+                    "title": "Link 1",
+                    "link": "http://no.link",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 48,
+            "title": "LaLiga",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Real Sociedad",
+                "teamB": "Espanyol",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/2824/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/2814/image",
+                "eventName": "LaLiga",
+                "date": "29/08/2026",
+                "time": "17:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "Link 1",
+                    "link": "http://no.link",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 49,
+            "title": "Saudi Pro League",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Al-Fateh",
+                "teamB": "Al-Ittihad",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/56023/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/34315/image",
+                "eventName": "Saudi Pro League",
+                "date": "29/08/2026",
+                "time": "18:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "Link 1",
+                    "link": "http://no.link",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 50,
+            "title": "MLS",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Inter Miami",
+                "teamB": "Montréal",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/337602/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/22006/image",
+                "eventName": "MLS",
+                "date": "29/08/2026",
+                "time": "23:30:00"
+            },
+            "channels_data": [
+                {
+                    "title": "Link 1",
+                    "link": "http://no.link",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 51,
+            "title": "VriendenLoterij Eredivisie",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "PEC Zwolle",
+                "teamB": "NEC",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/2971/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/2962/image",
+                "eventName": "VriendenLoterij Eredivisie",
+                "date": "29/08/2026",
+                "time": "19:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "Link 1",
+                    "link": "http://no.link",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 52,
+            "title": "Serie A",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Juventus",
+                "teamB": "Parma",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/2687/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/2690/image",
+                "eventName": "Serie A",
+                "date": "29/08/2026",
+                "time": "18:45:00"
+            },
+            "channels_data": [
+                {
+                    "title": "Link 1",
+                    "link": "http://no.link",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 53,
+            "title": "Brasileirão Betano",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Vasco",
+                "teamB": "Cruzeiro",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/1974/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/1954/image",
+                "eventName": "Brasileirão Betano",
+                "date": "30/08/2026",
+                "time": "00:20:00"
+            },
+            "channels_data": [
+                {
+                    "title": "Link 1",
+                    "link": "http://no.link",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 54,
+            "title": "LaLiga",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Sevilla",
+                "teamB": "Atl. Madrid",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/2833/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/2836/image",
+                "eventName": "LaLiga",
+                "date": "29/08/2026",
+                "time": "19:30:00"
             },
             "channels_data": [
                 {
