@@ -2,7 +2,7 @@
     "NAME": "FluX-oW Highlights (Auto Updated)",
     "AUTHOR": "iVan_FluX",
     "TELEGRAM CHANNEL": "https://t.me/api_hub_by_ivan",
-    "Last update time": "08:05:38 AM 06-09-2026",
+    "Last update time": "01:02:28 PM 06-09-2026",
     "events": [
         {
             "id": 7,
@@ -1892,6 +1892,356 @@
                 "eventName": "LaLiga",
                 "date": "29/08/2026",
                 "time": "19:30:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://img.refooty.com/m3u8/Athletic_Bilbao_v_Atletico_Madrid_2026_09_05.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 55,
+            "title": "Premier League",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Newcastle",
+                "teamB": "Bournemouth",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/39/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/60/image",
+                "eventName": "Premier League",
+                "date": "05/09/2026",
+                "time": "11:30:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://img.refooty.com/m3u8/Newcastle_v_Bournemouth_2026_09_05.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 56,
+            "title": "Bundesliga",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Leverkusen",
+                "teamB": "Union Berlin",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/2681/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/2547/image",
+                "eventName": "Bundesliga",
+                "date": "05/09/2026",
+                "time": "13:30:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://img.refooty.com/m3u8/Bayer_Leverkusen_v_Union_Berlin_2026_09_05.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 57,
+            "title": "Premier League",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Man City",
+                "teamB": "Coventry",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/17/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/11/image",
+                "eventName": "Premier League",
+                "date": "05/09/2026",
+                "time": "14:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://img.refooty.com/m3u8/Manchester_City_v_Coventry_City_2026_09_05.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 58,
+            "title": "Premier League",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Brentford",
+                "teamB": "Sunderland",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/50/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/41/image",
+                "eventName": "Premier League",
+                "date": "05/09/2026",
+                "time": "14:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://img.refooty.com/m3u8/Brentford_v_Sunderland_2026_09_05.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 59,
+            "title": "Premier League",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Fulham",
+                "teamB": "Crystal Palace",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/43/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/7/image",
+                "eventName": "Premier League",
+                "date": "05/09/2026",
+                "time": "14:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://img.refooty.com/m3u8/Fulham_v_Crystal_Palace_2026_09_05.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 60,
+            "title": "Premier League",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Brighton",
+                "teamB": "Leeds",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/30/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/34/image",
+                "eventName": "Premier League",
+                "date": "05/09/2026",
+                "time": "14:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://img.refooty.com/m3u8/Brighton_v_Leeds_2026_09_05.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 61,
+            "title": "Bundesliga",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Hoffenheim",
+                "teamB": "Dortmund",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/2569/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/2673/image",
+                "eventName": "Bundesliga",
+                "date": "05/09/2026",
+                "time": "13:30:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://img.refooty.com/m3u8/Hoffenheim_v_Borussia_Dortmund_2026_09_05.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 62,
+            "title": "Premier League",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Forest",
+                "teamB": "Tottenham",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/14/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/33/image",
+                "eventName": "Premier League",
+                "date": "05/09/2026",
+                "time": "14:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://img.refooty.com/m3u8/Nottingham_v_Tottenham_2026_09_05.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 63,
+            "title": "LaLiga",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Athletic Club",
+                "teamB": "Atl. Madrid",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/2825/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/2836/image",
+                "eventName": "LaLiga",
+                "date": "05/09/2026",
+                "time": "14:15:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://img.refooty.com/m3u8/Athletic_Bilbao_v_Atletico_Madrid_2026_09_05.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 64,
+            "title": "Serie A",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Inter",
+                "teamB": "Napoli",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/2697/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/2714/image",
+                "eventName": "Serie A",
+                "date": "05/09/2026",
+                "time": "16:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://img.refooty.com/m3u8/Inter_Milan_v_Napoli_2026_09_05.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 65,
+            "title": "Bundesliga",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Schalke",
+                "teamB": "Bayern",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/2530/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/2672/image",
+                "eventName": "Bundesliga",
+                "date": "05/09/2026",
+                "time": "16:30:00"
+            },
+            "channels_data": [
+                {
+                    "title": "Link 1",
+                    "link": "http://no.link",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 66,
+            "title": "Premier League",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Hull",
+                "teamB": "Aston Villa",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/96/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/40/image",
+                "eventName": "Premier League",
+                "date": "05/09/2026",
+                "time": "16:30:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://img.refooty.com/m3u8/Hull_City_v_Aston_Villa_2026_09_05.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 67,
+            "title": "Serie A",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Roma",
+                "teamB": "Atalanta",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/2702/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/2686/image",
+                "eventName": "Serie A",
+                "date": "05/09/2026",
+                "time": "18:45:00"
+            },
+            "channels_data": [
+                {
+                    "title": "HIGHLIGHTS",
+                    "link": "https://img.refooty.com/m3u8/AS_Roma_v_Atalanta_2026_09_05.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 68,
+            "title": "Saudi Pro League",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Al-Ittihad",
+                "teamB": "Al-Nassr",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/34315/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/23400/image",
+                "eventName": "Saudi Pro League",
+                "date": "05/09/2026",
+                "time": "18:00:00"
             },
             "channels_data": [
                 {
