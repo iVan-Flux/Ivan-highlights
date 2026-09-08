@@ -2,7 +2,7 @@
     "NAME": "FluX-oW Highlights (Auto Updated)",
     "AUTHOR": "iVan_FluX",
     "TELEGRAM CHANNEL": "https://t.me/api_hub_by_ivan",
-    "Last update time": "02:07:26 AM 09-09-2026",
+    "Last update time": "04:38:02 AM 09-09-2026",
     "events": [
         {
             "id": 7,
@@ -2242,6 +2242,106 @@
                 "eventName": "Saudi Pro League",
                 "date": "05/09/2026",
                 "time": "18:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "Link 1",
+                    "link": "http://no.link",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 69,
+            "title": "UEFA Champions League",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/7/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Real Madrid",
+                "teamB": "Inter",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/2829/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/2697/image",
+                "eventName": "UEFA Champions League",
+                "date": "08/09/2026",
+                "time": "19:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "Link 1",
+                    "link": "http://no.link",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 70,
+            "title": "UEFA Champions League",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/7/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Porto",
+                "teamB": "Man City",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/3002/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/17/image",
+                "eventName": "UEFA Champions League",
+                "date": "08/09/2026",
+                "time": "19:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "Link 1",
+                    "link": "http://no.link",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 71,
+            "title": "UEFA Champions League",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/7/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Lille",
+                "teamB": "Real Betis",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/1643/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/2816/image",
+                "eventName": "UEFA Champions League",
+                "date": "08/09/2026",
+                "time": "19:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "Link 1",
+                    "link": "http://no.link",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 72,
+            "title": "UEFA Champions League",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/7/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Dortmund",
+                "teamB": "Villarreal",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/2673/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/2819/image",
+                "eventName": "UEFA Champions League",
+                "date": "08/09/2026",
+                "time": "19:00:00"
             },
             "channels_data": [
                 {
