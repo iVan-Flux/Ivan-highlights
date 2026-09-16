@@ -2,7 +2,7 @@
     "NAME": "FluX-oW Highlights (Auto Updated)",
     "AUTHOR": "iVan_FluX",
     "TELEGRAM CHANNEL": "https://t.me/api_hub_by_ivan",
-    "Last update time": "02:17:19 AM 17-09-2026",
+    "Last update time": "04:59:22 AM 17-09-2026",
     "events": [
         {
             "id": 7,
@@ -2247,6 +2247,181 @@
                 {
                     "title": "HD SERVER",
                     "link": "https://img.refooty.com/m3u8/FC_Porto_v_Manchester_City_2026_09_08.m3u8",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 71,
+            "title": "UEFA Europa League",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/679/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Milan",
+                "teamB": "Benfica",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/2692/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/3006/image",
+                "eventName": "UEFA Europa League",
+                "date": "16/09/2026",
+                "time": "19:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "Link 1",
+                    "link": "http://no.link",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 72,
+            "title": "LaLiga",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Barcelona",
+                "teamB": "R. Racing Club",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/2817/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/2835/image",
+                "eventName": "LaLiga",
+                "date": "16/09/2026",
+                "time": "19:30:00"
+            },
+            "channels_data": [
+                {
+                    "title": "Link 1",
+                    "link": "http://no.link",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 73,
+            "title": "LaLiga",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Levante",
+                "teamB": "Athletic Club",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/2849/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/2825/image",
+                "eventName": "LaLiga",
+                "date": "16/09/2026",
+                "time": "19:30:00"
+            },
+            "channels_data": [
+                {
+                    "title": "Link 1",
+                    "link": "http://no.link",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 74,
+            "title": "EFL Cup",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/21/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Man Utd",
+                "teamB": "Brighton",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/35/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/30/image",
+                "eventName": "EFL Cup",
+                "date": "16/09/2026",
+                "time": "19:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "Link 1",
+                    "link": "http://no.link",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 75,
+            "title": "EFL Cup",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/21/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Coventry",
+                "teamB": "Aston Villa",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/11/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/40/image",
+                "eventName": "EFL Cup",
+                "date": "16/09/2026",
+                "time": "19:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "Link 1",
+                    "link": "http://no.link",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 76,
+            "title": "LaLiga",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Atléti",
+                "teamB": "Osasuna",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/2836/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/2820/image",
+                "eventName": "LaLiga",
+                "date": "16/09/2026",
+                "time": "17:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "Link 1",
+                    "link": "http://no.link",
+                    "logo": "",
+                    "type": 0,
+                    "api": "",
+                    "tokenApi": ""
+                }
+            ]
+        },
+        {
+            "id": 77,
+            "title": "AFC Champions League Two",
+            "image": "http://api.sofascore.com/api/v1/unique-tournament/668/image/dark",
+            "cat": "Football",
+            "eventInfo": {
+                "teamA": "Al-Hussein Irbid",
+                "teamB": "East Bengal",
+                "teamAFlag": "https://img.sofascore.com/api/v1/team/117204/image",
+                "teamBFlag": "https://img.sofascore.com/api/v1/team/40655/image",
+                "eventName": "AFC Champions League Two",
+                "date": "16/09/2026",
+                "time": "16:00:00"
+            },
+            "channels_data": [
+                {
+                    "title": "Link 1",
+                    "link": "http://no.link",
                     "logo": "",
                     "type": 0,
                     "api": "",
